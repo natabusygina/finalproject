@@ -7,11 +7,10 @@
     background-size: cover;
 }
 .logo {
-    display: inline-flex;
+    display: block;
     box-shadow: 0 1px 3px 3px gray;
-    width: 100%;
-    /*direction: left;*/
-    /*background-size: cover;*/
+    width: 85px;
+    background-size: cover;
     float: left;
 }
 .name1 {
@@ -59,6 +58,7 @@
     font-size: 180%;
     background: rgba(117, 114, 114, 0.342);
     position: absolute;
+    display: flex;
     top: calc(60% - 25px);
     padding: 5px;
     width: 90%;
