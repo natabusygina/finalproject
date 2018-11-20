@@ -38,7 +38,7 @@
     background-color: rgb(86, 96, 102);
 }
 .btn {
-    font-size: 20px;
+    font-size: 2vw;
     font-weight: 500;
 }
 .container {
@@ -54,16 +54,16 @@
     transition: all 0,5s ease;
 }
 .post span {
-    color: rgba(255, 255, 255, 0.979);
-    font-size: 180%;
+    color: rgb(247, 247, 247);
+    font-size: 2vw;
     background: rgba(117, 114, 114, 0.342);
     position: absolute;
-    display: flex;
-    top: calc(60% - 25px);
-    padding: 5px;
+    border-radius: 5px;
+    top: calc(60% - 50px);
+    padding: 3px;
     width: 90%;
     text-align: center;
-    font-weight: 700;
+    font-weight: 800;
     z-index: 13;
 }
 .justify-content-around {
@@ -100,8 +100,8 @@
 .image{
     width: 30%;
     float: left;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    margin-right: 10%;
+    margin-bottom: 30%;
 }
 .image img{
     width: 100%;
@@ -130,9 +130,9 @@ h4{
     margin-top: 2%;  
 }
 ol{
-    font-weight: 500;
-    color: rgb(39, 39, 133);
-    font-size: 25px;
+    font-weight: 800;
+    color: rgb(5, 5, 78);
+    font-size: 18px;
     padding-left: 10%;
     margin-top: 2%;
 }
