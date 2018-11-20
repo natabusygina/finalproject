@@ -1,0 +1,138 @@
+.name {
+    position: relative;
+    padding: 0 40px;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(66, 177, 214);
+    background-size: cover;
+}
+.logo {
+    display: inline-flex;
+    box-shadow: 0 1px 3px 3px gray;
+    width: 100%;
+    /*direction: left;*/
+    /*background-size: cover;*/
+    float: left;
+}
+.name1 {
+    text-align: center;
+    font-size: 350%;
+    font-style: oblique;
+    font-weight: 600; 
+    color: rgb(80, 78, 82);
+}
+.fon {
+    position: relative;
+    display: inline-block;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    padding-bottom: 50px;
+    background: lightgrey;
+    background-size: cover;
+    min-height: calc(100vh - 110px);
+}
+.menu {
+    position: relative;
+    z-index: 2;
+    padding: 0 50px;
+    background-color: rgb(86, 96, 102);
+}
+.btn {
+    font-size: 20px;
+    font-weight: 500;
+}
+.container {
+    padding-top: 10px;
+}
+.post img {
+    width: 100%;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 210px;
+    box-shadow: 0 1px 3px 3px grey;
+    transition: all 0,5s ease;
+}
+.post span {
+    color: rgba(255, 255, 255, 0.979);
+    font-size: 180%;
+    background: rgba(117, 114, 114, 0.342);
+    position: absolute;
+    top: calc(60% - 25px);
+    padding: 5px;
+    width: 90%;
+    text-align: center;
+    font-weight: 700;
+    z-index: 13;
+}
+.justify-content-around {
+    justify-content: space-around!important;
+}
+#content {
+    position: relative;
+    margin-left: 17%;
+}
+.container {
+    padding-top: 50px;
+}
+.row {
+    padding-top: 10px;
+    padding-right: 0px;
+}
+.post img:hover{
+    width: 104%;
+    height: 104%;
+    z-index: 12;
+}
+#carouselExampleControls {
+    width: 90%;
+    padding-left: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.carousel-inner {
+    position: relative;
+    width: 90%;
+    align-items: center;
+}
+.image{
+    width: 30%;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 30px;
+}
+.image img{
+    width: 100%;
+}
+.text{
+    padding-left: 10%;
+    float: left; 
+}
+.title{
+    font-weight: 700;
+    color: rgb(56, 56, 63);
+    font-size: 36px;
+    text-align: center;
+}
+h3{
+    font-weight: 500;
+    color: rgb(52, 52, 119);
+    font-size: 30px;
+    text-align: center;   
+}
+h4{
+    font-weight: 500;
+    color: rgb(52, 52, 119);
+    font-size: 20px;
+    text-align: left;
+    margin-top: 2%;  
+}
+ol{
+    font-weight: 500;
+    color: rgb(39, 39, 133);
+    font-size: 25px;
+    padding-left: 10%;
+    margin-top: 2%;
+}
