@@ -7,11 +7,8 @@
     background-size: cover;
 }
 .logo {
-    display: block;
     box-shadow: 0 1px 3px 3px gray;
     width: 85px;
-    background-size: cover;
-    float: left;
 }
 .name1 {
     text-align: center;
@@ -54,7 +51,7 @@
     transition: all 0,5s ease;
 }
 .post span {
-    color: rgb(247, 247, 247);
+    color: rgb(254, 254, 255);
     font-size: 2vw;
     background: rgba(117, 114, 114, 0.342);
     position: absolute;
